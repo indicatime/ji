@@ -2,11 +2,14 @@
     margin: 0;
     padding: 0;
     font-family: 'Philosopher', sans-serif;
+   text-align: center;
+   width: 100%;
 }
+
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(29, 41, 0, 0.199),rgba(29, 41, 0, 0.7)),url(image/weed.jpg);
+    background-color: #000000;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -15,6 +18,7 @@
 }
 .call a{
     text-decoration: none;
+    color: #69bd49;
 }
 .headerm h1{
 
@@ -258,6 +262,9 @@ div img{
         width: 80%;
     }
 }
+.call a{
+    font-size: large;
+}
 .bottom{
 
     background-color: #1b1b11;
@@ -279,6 +286,7 @@ div img{
     line-height: 5px;
     text-align: center;
     background-color: #1b1b11;
+    padding-top: 250px;
     justify-content: space-between;
 }
 @media(max-width: 700px){
