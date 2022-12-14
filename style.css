@@ -13,7 +13,9 @@
     background-repeat: no-repeat;
     position: relative;
 }
-
+.call a{
+    text-decoration: none;
+}
 .headerm h1{
 
     font-size: 100px;
